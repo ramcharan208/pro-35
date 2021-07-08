@@ -22,10 +22,7 @@ function draw() {
 
   fill("black");
   text("Use Arrow Keys to move the Balloon!",10,30);
-  fill("red");
-  textFont("algerian");
-  textSize(30);
-  text("PROJECT BY R.RAM CHARAN",10,50);
+
 
   if(keyDown(LEFT_ARROW)){
     balloon.x = balloon.x - 10;
